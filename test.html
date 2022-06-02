@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>黄晓琳</title>
+</head>
+
+<body>
+    <img src="images/header.jpg">
+    <div class="content">
+        <li>
+            <img src="images/3.png" class="left">
+            <p>10元</p>
+        </li>
+        <li>
+            <img src="images/3.png" class="center">
+            <p>20元</p>
+        </li>
+        <li>
+            <img src="images/3.png" class="right">
+            <p>30元</p>
+        </li>
+    </div>
+    <img src="images/header.jpg">
+    <style>
+        * {
+            width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .content {
+            display: flex;
+        }
+        
+        li {
+            list-style: none;
+            position: relative;
+        }
+        
+        .left,
+        .center,
+        .right {
+            width: 400px;
+            height: 480px;
+        }
+        
+        p {
+            position: absolute;
+            width: 40px;
+            bottom: 20px;
+            right: 20px;
+        }
+    </style>
+</body>
+
+</html>
